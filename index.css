@@ -144,7 +144,7 @@ p {
     letter-spacing: initial;
 }
 #header .nav-list ul li:hover a{
-    color: pink;
+    color: #EFDCB2;
 }
 #header .happy {
     height: 60px;
