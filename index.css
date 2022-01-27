@@ -202,29 +202,6 @@ p {
 }
 /* End Header Section */
 
-/* Gallery Section */
-.column {
-    float: left;
-    width: 25%;
-    padding: 10px;
-  }
-  
-  .column img {
-    opacity: 0.8;
-    cursor: pointer;
-  }
-  
-  .column img:hover {
-    opacity: 1;
-  }
-  
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-/*End Gallery Section*/
-
 /* keyframes */
 @keyframes happy_puls{
     0% {
