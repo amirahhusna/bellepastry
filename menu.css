@@ -33,7 +33,7 @@ body{
   content:"";
   width:100px;
   height:2px;
-  background-color:#ff7720;
+  background-color:#C19A6B;
   bottom:0;
   left:50%;
   transform:translateX(-50%);
@@ -77,6 +77,6 @@ body{
 }
 .single-menu h4 span{
   float:right;
-  color:#ff7720;
+  color:#C19A6B;
   font-style:italic;
 }
