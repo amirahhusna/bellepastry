@@ -326,36 +326,6 @@ p {
     h1.section-title {
         font-size: 6rem;
     }
-/* Home */
-#home h1 {
-    font-size: 7rem;
-}
-/* End Home */
-
-/*Aboutme */
-#aboutme .about {
-    flex-direction: row;
-}
-#aboutme .col-left {
-    width: 600px;
-    height: 400px;
-    padding-left: 60px;
-}
-#aboutme .about .col-left .about-img::after {
-    left: -45px;
-    top: 34px;
-    height: 98%;
-    width: 98%;
-    border: 10px solid pink;
-}
-#aboutme .col-right {
-    text-align: left;
-    padding: 30px;
-}
-#aboutme .col-right h1 {
-    text-align: left;
-}
-/* End Aboutme */
 }
 /* End Media Query For Tablet*/
 
