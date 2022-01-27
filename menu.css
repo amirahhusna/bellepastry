@@ -79,6 +79,12 @@ body{
   color:#ff7720;
   font-style:italic;
 }
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 html {
     font-size: 10px;
     font-family: 'Barlow Semi Condensed', sans-serif; 
