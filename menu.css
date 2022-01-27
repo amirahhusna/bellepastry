@@ -1,11 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
 *{
     margin:0;
     padding:0;
     box-sizing:border-box
-}
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-body{
-    font-family: 'Poppins', sans-serif;
 }
 .wrapper{
   width:1200px;
@@ -330,37 +329,6 @@ p {
     h1.section-title {
         font-size: 6rem;
     }
-/* Home */
-#home h1 {
-    font-size: 7rem;
-}
-/* End Home */
-
-/*Aboutme */
-#aboutme .about {
-    flex-direction: row;
-}
-#aboutme .col-left {
-    width: 600px;
-    height: 400px;
-    padding-left: 60px;
-}
-#aboutme .about .col-left .about-img::after {
-    left: -45px;
-    top: 34px;
-    height: 98%;
-    width: 98%;
-    border: 10px solid pink;
-}
-#aboutme .col-right {
-    text-align: left;
-    padding: 30px;
-}
-#aboutme .col-right h1 {
-    text-align: left;
-}
-/* End Aboutme */
-}
 /* End Media Query For Tablet*/
 
 /* Media Query For Desktop */ 
