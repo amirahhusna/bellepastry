@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+*
+{
+  margin: 0;  
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+body
+{ 
+  background: linear-gradient(90deg, #F5D5A1 30%,  #F5D5A1 100%) ;  
+} 
+.contactUs
+{
+    position: relative;
+    width: 100%;
+    padding: 40px 100px;
+}
+.contactUs .title
+{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ font-size: 0.8cm;
+}
+.contactUs. title h2
+{
+    color: #fff;
+    font-weight: 500;
+}
+.form
+{
+  grid-area:form;
+}
+.info
+{
+  grid-area:info;
+}
+.map
+{
+  grid-area:map;
+}
+.contact
+{
+ padding: 40px;
+ background: #fff;
+ box-shadow: 0 5px 35px rgba(0,0,0,0.15);
+}
+.box
+{
+  position: relative; 
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 5fr 4fr;
+  grid-template-areas: 
+  "form info"
+  "form map";
+  grid-gap: 20px;
+  margin-top: 20px;
+}
+.contact h3
+{
+  color: black;
+  font-weight:500;
+  font-size:0.5cm;
+  margin-bottom: 10px;
+}
+
+/* form */
+.formBox{
+  position: relative;
+  width: 100%;
+}
+.formBox .row50
+{
+  display: flex;
+  gap: 60px;
+}
+.inputBox
+{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  width: 50%;
+}
+.formBox .row100 .inputBox
+{
+  width: 100%;
+}
+.inputBox textarea
+{
+  resize: none;
+  min-height: 220px;
+}
+.inputBox span
+{
+  color: #BDA276   ;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-weight: 500; 
+}
+.inputBox input[type="submit"]
+{
+  background: #BDA276;
+  color: #fff;
+  border:none;
+  font-size: 0.4cm;
+  max-width: 100px;
+  font-weight: 500;
+  cursor: pointer;
+  padding: 3px 1px;
+}
+
+/* info */
+.info
+{
+  background:#E4B974 ;
+}
+.info h3
+{
+  color:black;
+}
+.info .infoBox div
+{
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.info .infoBox div span
+{
+  min-width: 40px;
+  height: 40px;
+  color: #fff;
+  background: #EECF9C;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.7cm;
+  border-radius: 80%;
+  margin-right: 15px;
+}
+.map
+{
+  padding: 0%;
+  size: 3px;
+}
+.map iframe
+{
+  width: 100%;
+  height: 100%;
+}
