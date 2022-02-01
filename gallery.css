@@ -6,6 +6,19 @@
 body {
     background: white;
 }
+h1{
+    font-family: "montserrat",sans-serif;
+    padding: 10px 0;
+    background: #FFFFFF;
+    color: #434343;
+    text-align: center;
+  }  
+.border{
+    width: 160px;
+    height: 5px;
+    background: #6F4E37;
+    margin: 26px auto;
+  }
 .gallery {
     width: 80%;
     margin: 100px auto 50px;
