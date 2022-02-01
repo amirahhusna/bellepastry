@@ -6,7 +6,7 @@
 body {
     background: white;
 }
-h1{
+.inner h1{
     font-family: "montserrat",sans-serif;
     padding: 10px 0;
     background: #FFFFFF;
