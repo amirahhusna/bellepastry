@@ -66,7 +66,7 @@ html {
 
 /* review section*/
 .testimonials{
-  padding: 7px;
+  padding: 5px;
   background: #FFFFFF;
   color: #434343;
   text-align: center;
@@ -83,7 +83,7 @@ h1{
   background: #FFFFFF;
   color: #434343;
   text-align: center;
-  font-size: 10px;
+  font-size: 20px;
 }  
 .border{
   width: 160px;
