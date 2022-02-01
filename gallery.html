@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=devide-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <link rel="shortcut icon" type="x-icon" href="img/logo colour.png">
+    <link rel="stylesheet" href="gallery.css">
+</head>
+<body>
+
+<div class="full-image" id="fullimageBox">
+    <img src="img/cafe.jpg" id="fullimage">
+    <span onclick="closefullimage()">X</span>
+</div>
+
+<div class="gallery">
+    <img src="img/cafe.jpg" onclick="openfullimage(this.src)">
+    <img src="img/cafe2.jpg" onclick="openfullimage(this.src)">
+    <img src="img/cafe3.jpg" onclick="openfullimage(this.src)">
+    <img src="img/cafe4.jpg" onclick="openfullimage(this.src)">
+    <img src="img/cafe5.jpg" onclick="openfullimage(this.src)">
+    <img src="img/cafe6.jpg" onclick="openfullimage(this.src)">
+    <img src="img/cafe8.jpg" onclick="openfullimage(this.src)">
+    <img src="img/cafe9.jpg" onclick="openfullimage(this.src)">
+</div>
+
+<script>
+
+    var fullimageBox = document.getElementById ("fullimageBox");
+    var fullimage = document.getElementById ("fullimage");
+
+    function openfullimage(pic) {
+        fullimageBox.style.display = "flex";
+        fullimage.src = pic;
+    }
+
+    function closefullimage() {
+        fullimageBox.style.display = "none";
+    }
+
+</script>
+</body>
+</html>
