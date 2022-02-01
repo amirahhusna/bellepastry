@@ -168,10 +168,50 @@
     color: black;
     font-family: "work sans", sans-serif;
 }
-.photo{
+.photo1{
     height: 100%;
     width: 100%;
     background: url(husna.jpg);
+    position: absolute;
+    bottom: 0;
+    background-size: 100% 100%;
+    border-radius: 8px;
+    transition: 1s;
+}
+.photo2{
+    height: 100%;
+    width: 100%;
+    background: url(anis.jpg);
+    position: absolute;
+    bottom: 0;
+    background-size: 100% 100%;
+    border-radius: 8px;
+    transition: 1s;
+}
+.photo3{
+    height: 100%;
+    width: 100%;
+    background: url(ari.JPG);
+    position: absolute;
+    bottom: 0;
+    background-size: 100% 100%;
+    border-radius: 8px;
+    transition: 1s;
+}
+.photo4{
+    height: 100%;
+    width: 100%;
+    background: url(sera.PNG);
+    position: absolute;
+    bottom: 0;
+    background-size: 100% 100%;
+    border-radius: 8px;
+    transition: 1s;
+}
+.photo5{
+    height: 100%;
+    width: 100%;
+    background: url(mohamad.jpg);
     position: absolute;
     bottom: 0;
     background-size: 100% 100%;
