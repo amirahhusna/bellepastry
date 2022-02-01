@@ -1,206 +1,68 @@
-@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@300&display=swap');
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: 'Barlow Semi Condensed',sans-serif; 
-}
-html {
-    font-size: 10px;
-    scroll-behavior: smooth;
-}
-a {
-    text-decoration: none;
-}
-.container {
-    min-height: 100vh;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-img {
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-}
-p {
-    color: black;
-    font: 2rem;
-    font-size: 1.5rem;
-    margin-top: 5px;
-    line-height: 2.5rem;
-    font-weight: 300;
-    letter-spacing: .05rem;
-}
-.row {
-    margin-top: 5%;
-    display: flex;
-    justify-content: space-between;
-}
-.section-title {
-    font-size: 4rem;
-    font-weight: 300;
-    color: gray;
-    margin-bottom: 10px;
-    text-transform: uppercase;
-    letter-spacing: .2rem;
-    text-align: center;
-}
-.section-title span {
-    color: pink;
-}
-.cta {
-    display: inline-block;
-    padding: 10px 30px;
-    color: #EFDCB2;
-    background-color: transparent;
-    border: 2px solid pink;
-    font-size: 2rem;
-    text-transform: uppercase;
-    letter-spacing: .1rem;
-    margin-top: 30px;
-    transition: .3s ease;
-    transition-property: background-color, color;
-}
-.cta:hover {
-    color: black;
-    background-color: pink;
-}
-.brand h1 {
-    font-size: 3rem;
-    text-transform: uppercase;
-    color: gray;
-}
-.brand h1 span {
-    color: #EFDCB2;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+:root{
+    --main-color: #EFE1CC;
+    --border-radius: 95% 4% 97% 5%/4% 94% 3% 95%;
+    --border-radius-hover: 4% 95% 6% 95%/95% 4% 92% 5%;
+    --border:.2rem solid var(--main-color);
+    --border-hover:.2rem display var(--main-color);
 }
 
-/* Header Section */
-#header {
+*{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    outline: none; border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+}
+html {
+    font-size: .70rem;
+    overflow-x: hidden;
+    scroll-padding-top: 7rem;
+    scroll-behavior: smooth;
+}
+
+.btn{
+    display: inline-block;
+    padding: .9rem 1.5rem;
+    border-radius: var(--border-radius);
+    color: black;
+    background: none;
+    border: var(--border);
+    cursor: pointer;
+    margin-top: 1rem;
+    font-size: 1.7rem;
+}
+.header{
     position: fixed;
-    z-index: 1000;
-    left: 0;
-    top: 0;
-    width: 100vw;
-    height: auto;
-}
-#header .header {
-    min-height: 8vh;
-    background-color: white;
-    transition: .3s ease background-color;
-}
-.header .nav-bar {
+    top: 0; left: 0; right: 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 100%;
-    height: 100%;
-    max-width: 1300px;
-    padding: 0 10px;
+    z-index: 1000;
+    background: white;
+    box-shadow: 0 .5rem 1rem #EFE1CC;
+    padding: 2rem 9%;
 }
-#header .nav-list ul {
-    list-style: none;
-    position: absolute;
-    background-color: white;
-    width: 100vw;
-    height: 100vh;
-    left: 100%;
-    top: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    z-index: 1;
-    overflow-x: hidden;
-    transition: .5s ease left;
+
+.header .logo{
+    color: brown;
+    font-size: 2rem;
 }
-#header .nav-list ul.active {
-    left: 0;
+.header .logo span{
+    color: black;
+    font-size: 2rem;
 }
-#header .nav-list ul a {
-    font-size: 2.5rem;
-    font-weight: 500;
-    letter-spacing: .2rem;
-    text-decoration: none;
-    color: gray;
-    text-transform: uppercase;
-    padding: 20px;
-    display: block;
+.header .navbar a{
+    margin: 0 1rem;
+    font-size: 1.7rem;
+    color: black;
 }
-#header .nav-list ul a::after {
-    content: attr(data-after);
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%) scale(0);
-    color: pink;
-    font-size: 12rem;
-    letter-spacing: 50px;
-    z-index: -1;
+.header .btn{
+    margin-top: 0;
 }
-#header .nav-list ul li:hover a::after {
-    transform: translate(-50%, -50%) scale(1);
-    letter-spacing: initial;
-}
-#header .nav-list ul li:hover a{
-    color: #EFDCB2;
-}
-#header .happy {
-    height: 60px;
-    width: 60px;
-    display: inline-block;
-    border: 3px solid gray;
-    border-radius: 50%;
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    z-index: 100;
-    cursor: pointer;
-    transform: scale(.8);
-    margin-right: 20px;
-}
-#header .happy::after {
-    position: absolute;
-    content: '';
-    height: 100%;
-    width: 100%;
-    border-radius: 50%;
-    border: 3px solid pink;
-    animation: happy_puls 1s ease infinite;
-}
-#header .happy .bar {
-    height: 2px;
-    width: 3px;
-    position: relative;
-    background-color: gray;
-    z-index: -1;
-}
-#header .happy .bar::after,
-#header .happy .bar::before{
-    content: '';
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    left: 0;
-    background-color: black;
-    transition: .3s ease;
-    transition-property: top, bottom;
-}
-#header .happy .bar::after {
-    top: 8px;
-}
-#header .happy .bar::before {
-    bottom: 8px;
-}
-#header .happy.active .bar::before. {
-    bottom: 0;
-}
-#header .happy.active .bar::after {    
-    top: 0;
-}
-/* End Header Section */
 
 /* review section*/
 .testimonials{
