@@ -252,7 +252,10 @@ section{
     background: #FFFFFF;
     color: #434343;
     text-align: center;
-  }  
+  }
+   p{
+   font-size: 1rem    
+  }
   .border{
     width: 160px;
     height: 5px;
