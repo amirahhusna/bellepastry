@@ -6,6 +6,7 @@
 	box-sizing: border-box;
 	font-family: 'Poppins', sans-serif;
 }
+/*Gallery section*/
 .section{
 	width: 100%;
 	min-height: 100vh;
@@ -224,6 +225,9 @@
     background-position: 0 -25px;
     border-radius: 50%;
 }
+/*end gallery section*/
+	
+	
 /*footer section*/
 .footer .box-container{
     display: grid;
