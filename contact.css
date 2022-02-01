@@ -8,7 +8,7 @@
 }
 body
 { 
-  background: linear-gradient(90deg, #F5D5A1 30%,  #F5D5A1 100%) ;  
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://github.com/amirahhusna/bellepastry/blob/main/img/background.jpg?raw=true)center/cover no-repeat ;  
 } 
 .contactUs
 {
