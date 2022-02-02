@@ -117,7 +117,7 @@ body {
 .inner h1{
     font-family: "montserrat",sans-serif;
     font-size: 30px;
-    padding: 3px 0;
+    padding: 5px 0;
     background: #FFFFFF;
     color: #434343;
     text-align: center;
@@ -126,7 +126,7 @@ body {
     width: 160px;
     height: 5px;
     background: #6F4E37;
-    margin: 23px auto;
+    margin: 20px auto;
   }
 .gallery {
     width: 80%;
