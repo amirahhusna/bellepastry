@@ -126,6 +126,10 @@ section{
     flex: 1 1 42rem;
 }
 
+.home .row .content .btn{
+    color: #800000;
+}
+    
 .home .row .image{
     flex: 1 1 42rem;
     padding-top: 10rem;
