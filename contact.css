@@ -253,3 +253,15 @@ body
   height: 100%;
 }
 /*end contact section*/
+
+.credit{
+    text-align: center; color: white;
+    font-size: 2rem;
+    padding:2rem 1rem;
+    margin-top: 1rem;
+    color:var(--main-color);
+  }
+  .credit span{
+    text-align: center; color: white;
+    border-bottom: var(--border-hover);
+  }
