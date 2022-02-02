@@ -185,6 +185,17 @@ section{
     float: left;
 }
 
+@keyframes aboutImage {
+    0%, 100%{
+        transform: scale(.9);
+        border-radius: var(--border-radius-hover);
+    }
+    50%{
+        transform: scale(.8);
+        border-radius: var(--border-radius);
+    }
+}
+
 .about .row .content{
     flex: 1 1 42rem;
 }
