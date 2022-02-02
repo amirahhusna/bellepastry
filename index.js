@@ -17,3 +17,9 @@ document.querySelectorAll('.image-slider img').forEach(images => (){
         document.querySelector('.main-home-image').src = src;
    }
 });
+
+let loginForm = document.querySelector('.login-form');
+
+document.querySelector("#login-btn").onclick=() =>{
+	loginForm.classList.toggle('active');
+}
