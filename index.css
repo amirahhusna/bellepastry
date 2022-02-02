@@ -124,10 +124,23 @@ section{
 
 .home .row .content{
     flex: 1 1 42rem;
+    color: #800000;
 }
 
 .home .row .content .menu-btn{
     color: #800000;
+}
+
+.home .row .content .btn{
+    display: inline-block;
+    padding:.9rem 1.5rem;
+    border-radius: var(--border-radius);
+    color:#800000;
+    background: none;
+    border:#800000;
+    cursor: pointer;
+    margin-top: 1rem;
+    font-size: 1.7rem;
 }
     
 .home .row .image{
